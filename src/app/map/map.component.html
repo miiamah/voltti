@@ -1,0 +1,22 @@
+<mat-toolbar>
+    <div [hidden]="submitted" class="form">
+        <form (ngSubmit)="getSearch()" #heroForm="ngForm">
+            <div class="form-group">
+                <input title="haku" type="text" placeholder="Etsi" class="form-control" id="name"
+                       required
+                       [(ngModel)]="model.name" name="name"
+                       #name="ngModel">
+                <button mat-icon-button class="submit-button" [disableRipple]="true" type="submit"
+                        [disabled]="!heroForm.form.valid">
+                    <mat-icon class="haku-icon">search</mat-icon>
+                </button>
+            </div>
+        </form>
+    </div>
+</mat-toolbar>
+
+
+
+<div id="map">
+
+</div>

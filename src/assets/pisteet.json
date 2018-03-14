@@ -1,0 +1,747 @@
+[
+  {
+    "ID": 24354,
+    "UUID": "F3078104-D5A6-418C-AC24-0C0F1771A2AB",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "DataProvidersReference": null,
+    "OperatorID": 1,
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": null,
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": null,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 1,
+      "Title": "(Unknown Operator)"
+    },
+    "OperatorsReference": null,
+    "UsageTypeID": 1,
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": null,
+      "IsAccessKeyRequired": null,
+      "ID": 1,
+      "Title": "Public"
+    },
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 24700,
+      "Title": "Kauppakeskus Sello",
+      "AddressLine1": "Leppävaarankatu",
+      "AddressLine2": "Leppävaara",
+      "Town": "Espoo",
+      "StateOrProvince": "Helsingin seutukunta",
+      "Postcode": "02600",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.2182258928907,
+      "Longitude": 24.8115987740967,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": "Sms aktivointi. Latauspaikat löytyvät F riviltä / Sms activation needed.  Charging stations located in row F.",
+      "RelatedURL": null,
+      "Distance": 0.64015471303705029,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 4,
+    "GeneralComments": "Parkkihalli F-rivi SMS-Aktivointi",
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2017-11-13T03:43:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2014-08-31T19:41:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "Connections": [
+      {
+        "ID": 26519,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 230,
+        "PowerKW": 3.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 4,
+        "Comments": null
+      }
+    ],
+    "MediaItems": null,
+    "MetadataValues": null,
+    "IsRecentlyVerified": false,
+    "DateLastVerified": null
+  },
+  {
+    "ID": 53530,
+    "UUID": "9EC518CE-1133-41EB-B6B7-7F82A06B1B19",
+    "ParentChargePointID": null,
+    "DataProviderID": 19,
+    "DataProvider": {
+      "WebsiteURL": "http://www.nobil.no",
+      "Comments": "NOBIL is an Norwegian open, national database for registering and reporting information about charging stations.",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 30,
+        "Title": "Partially Automated (Ad-Hoc Import)"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "NOBIL by Transnova, Norway is licensed under Creative Commons 3.0 Unported License",
+      "DateLastImported": "2018-01-04T08:32:41.253Z",
+      "ID": 19,
+      "Title": "Nobil.no"
+    },
+    "DataProvidersReference": "2949",
+    "OperatorID": null,
+    "OperatorInfo": null,
+    "OperatorsReference": null,
+    "UsageTypeID": null,
+    "UsageType": null,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 53876,
+      "Title": "Pysäköintihalli P1 3. kerros",
+      "AddressLine1": "Lars Sonckin kaari 3-5",
+      "AddressLine2": null,
+      "Town": "Etelä-Leppävaara",
+      "StateOrProvince": "Uusimaa",
+      "Postcode": "02600",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.21077,
+      "Longitude": 24.819,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": "Pysäköintilaitoksen P1, 3 kerros",
+      "RelatedURL": null,
+      "Distance": 1.0157087433050636,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 2,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": null,
+    "StatusType": null,
+    "DateLastStatusUpdate": "2018-01-04T08:29:00Z",
+    "DataQualityLevel": 2,
+    "DateCreated": "2015-09-20T11:33:00Z",
+    "SubmissionStatusTypeID": 100,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 100,
+      "Title": "Imported and Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "Connections": [
+      {
+        "ID": 66651,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "Reference": "1",
+        "StatusTypeID": null,
+        "StatusType": null,
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 230,
+        "PowerKW": null,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": null,
+        "Comments": "Mode 3"
+      },
+      {
+        "ID": 88917,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "Reference": "2",
+        "StatusTypeID": null,
+        "StatusType": null,
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 230,
+        "PowerKW": null,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": null,
+        "Comments": "Mode 3"
+      }
+    ],
+    "MediaItems": null,
+    "MetadataValues": null,
+    "IsRecentlyVerified": false,
+    "DateLastVerified": null
+  },
+  {
+    "ID": 68623,
+    "UUID": "BDD9F62E-9C44-4ED3-9088-CBDF8EAF5A11",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "DataProvidersReference": null,
+    "OperatorID": 136,
+    "OperatorInfo": {
+      "WebsiteURL": "http://virta.fi/",
+      "Comments": null,
+      "PhonePrimaryContact": "0800-02200",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 136,
+      "Title": "VIRTA"
+    },
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "0,0€",
+    "AddressInfo": {
+      "ID": 68969,
+      "Title": "Hesburger Konala DC Fast",
+      "AddressLine1": "Ristipellontie 11",
+      "AddressLine2": null,
+      "Town": "Helsinki",
+      "StateOrProvince": "Uusimaa",
+      "Postcode": "00390",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.2398177,
+      "Longitude": 24.8502744,
+      "ContactTelephone1": "+358-800-02200",
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": "Virta Oy members or one time access. Google Street  View picture is old. There is a Hesburger and Neste now.",
+      "RelatedURL": "http://www.virta.fi",
+      "Distance": 1.3567356898804515,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 3,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2016-07-18T07:59:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2016-06-12T22:57:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "Connections": [
+      {
+        "ID": 96224,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 2,
+        "Comments": null
+      },
+      {
+        "ID": 96225,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "FormalName": null,
+          "IsDiscontinued": null,
+          "IsObsolete": null,
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 50.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 96226,
+        "ConnectionTypeID": 33,
+        "ConnectionType": {
+          "FormalName": null,
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 33,
+          "Title": "CCS (Type 2 Version of Combined Coupler)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "MediaItems": [
+      {
+        "ID": 7767,
+        "ChargePointID": 68623,
+        "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FI/OCM68623/OCM-68623.orig.2016071807581453.jpg",
+        "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FI/OCM68623/OCM-68623.thmb.2016071807581453.jpg",
+        "Comment": "",
+        "IsEnabled": true,
+        "IsVideo": false,
+        "IsFeaturedItem": false,
+        "IsExternalResource": false,
+        "MetadataValue": null,
+        "User": {
+          "ID": 9495,
+          "IdentityProvider": null,
+          "Identifier": null,
+          "CurrentSessionToken": null,
+          "Username": "Alex",
+          "Profile": null,
+          "Location": null,
+          "WebsiteURL": null,
+          "ReputationPoints": 7,
+          "Permissions": null,
+          "PermissionsRequested": null,
+          "DateCreated": null,
+          "DateLastLogin": null,
+          "IsProfilePublic": null,
+          "IsEmergencyChargingProvider": null,
+          "IsPublicChargingProvider": null,
+          "Latitude": null,
+          "Longitude": null,
+          "EmailAddress": null,
+          "EmailHash": null,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/dacdd97c3254a574f96df07f784b5170?s=80&d=mm",
+          "IsCurrentSessionTokenValid": null,
+          "APIKey": null,
+          "SyncedSettings": null
+        },
+        "DateCreated": "2016-07-18T07:58:00Z"
+      },
+      {
+        "ID": 7768,
+        "ChargePointID": 68623,
+        "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FI/OCM68623/OCM-68623.orig.2016071807590372.jpg",
+        "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FI/OCM68623/OCM-68623.thmb.2016071807590372.jpg",
+        "Comment": "",
+        "IsEnabled": true,
+        "IsVideo": false,
+        "IsFeaturedItem": false,
+        "IsExternalResource": false,
+        "MetadataValue": null,
+        "User": {
+          "ID": 9495,
+          "IdentityProvider": null,
+          "Identifier": null,
+          "CurrentSessionToken": null,
+          "Username": "Alex",
+          "Profile": null,
+          "Location": null,
+          "WebsiteURL": null,
+          "ReputationPoints": 7,
+          "Permissions": null,
+          "PermissionsRequested": null,
+          "DateCreated": null,
+          "DateLastLogin": null,
+          "IsProfilePublic": null,
+          "IsEmergencyChargingProvider": null,
+          "IsPublicChargingProvider": null,
+          "Latitude": null,
+          "Longitude": null,
+          "EmailAddress": null,
+          "EmailHash": null,
+          "ProfileImageURL": "https://www.gravatar.com/avatar/dacdd97c3254a574f96df07f784b5170?s=80&d=mm",
+          "IsCurrentSessionTokenValid": null,
+          "APIKey": null,
+          "SyncedSettings": null
+        },
+        "DateCreated": "2016-07-18T07:59:00Z"
+      }
+    ],
+    "MetadataValues": null,
+    "IsRecentlyVerified": false,
+    "DateLastVerified": null
+  },
+  {
+    "ID": 24177,
+    "UUID": "40486606-7CC7-454B-BDBB-6FD0AB5134BE",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "DataProvidersReference": null,
+    "OperatorID": 136,
+    "OperatorInfo": {
+      "WebsiteURL": "http://virta.fi/",
+      "Comments": null,
+      "PhonePrimaryContact": "0800-02200",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 136,
+      "Title": "VIRTA"
+    },
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "UsageCost": "AC 15cnt/kWh + 100cnt/h",
+    "AddressInfo": {
+      "ID": 24522,
+      "Title": "Luutnantin aukio",
+      "AddressLine1": "Luutnantin aukio 1",
+      "AddressLine2": "",
+      "Town": "Helsinki",
+      "StateOrProvince": "Uusimaa",
+      "Postcode": "",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.2476866109025,
+      "Longitude": 24.86332654953,
+      "ContactTelephone1": "",
+      "ContactTelephone2": "",
+      "ContactEmail": "",
+      "AccessComments": "",
+      "RelatedURL": "http://www.virta.fi",
+      "Distance": 2.0604426392239747,
+      "DistanceUnit": 2
+    },
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "DateLastStatusUpdate": "2015-07-29T09:21:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2014-07-10T05:08:00Z",
+    "SubmissionStatusTypeID": 200,
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "Connections": [
+      {
+        "ID": 26260,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Mennekes (Type 2)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": null,
+        "Voltage": 400,
+        "PowerKW": 17.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 2,
+        "Comments": null
+      },
+      {
+        "ID": 26261,
+        "ConnectionTypeID": 28,
+        "ConnectionType": {
+          "FormalName": "CEE 7/4",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 28,
+          "Title": "CEE 7/4 - Schuko - Type F"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 13,
+        "Voltage": 240,
+        "PowerKW": 3.0,
+        "CurrentTypeID": 10,
+        "CurrentType": {
+          "Description": "Alternating Current - Single Phase",
+          "ID": 10,
+          "Title": "AC (Single-Phase)"
+        },
+        "Quantity": 2,
+        "Comments": null
+      }
+    ],
+    "MediaItems": null,
+    "MetadataValues": null,
+    "IsRecentlyVerified": false,
+    "DateLastVerified": null
+  }
+]

@@ -1,0 +1,40 @@
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+
+.form-group {
+  margin: 0 0 0 10px;
+}
+
+.submit-button {
+  float: right;
+  background-color: #ff5722;
+  margin-right: 15px;
+}
+
+.haku-icon {
+  color: white;
+}
+
+.form-control {
+  width: 280px;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.form {
+  width: 100%;
+}
+
+
+#map {
+  height: 555px;
+  width: 375px;
+  position: absolute;
+  left: 0;
+  margin-top: 48px;
+}

@@ -1,0 +1,26 @@
+$primary: #4caf50;
+$white-text: white;
+
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: $primary;
+}
+
+.tabbar-icon {
+  margin: 10px 14px 0 45px;
+  font-size: 35px;
+  vertical-align: bottom;
+  color: $white-text;
+}
+
+a {
+  box-sizing: border-box;
+}
+
+.menu-item {
+  width: 33.3%;
+  height: 100%;
+}

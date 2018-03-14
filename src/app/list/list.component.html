@@ -1,0 +1,30 @@
+<header class="header">
+    <img width="73px" height="92px" src="assets/sahkologo.png">
+    <h2>Voltti</h2>
+</header>
+
+
+<mat-accordion>
+    <mat-expansion-panel *ngFor="let piste of chargeService.tulokset" [hideToggle]="true">
+        <mat-expansion-panel-header [collapsedHeight]="">
+            <mat-panel-title>
+                <span class="list-title-pad font-size-20">{{ piste.AddressInfo.Title }}</span>
+            </mat-panel-title>
+            <mat-panel-description>
+                <span class="fill-space"></span>
+                <span class="distance-indicator">{{ piste.AddressInfo.Distance | number: fractionSize }} km</span>
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div>
+            <p class="accordion-content">Hinta: {{piste.UsageCost}}<br>
+                Paikkoja: {{piste.NumberOfPoints}}<br></p>
+            <mat-chip-list [selectable]="false">
+                <mat-chip class="plug-chip" *ngFor="let pistoke of piste.Connections">{{pistoke.ConnectionType.Title}}</mat-chip>
+            </mat-chip-list>
+        </div>
+        <mat-action-row>
+            <button [routerLink]="'/navigation/'+piste.ID" mat-button class="navigate-button">NAVIGOI<mat-icon class="navigate-icon">navigation</mat-icon></button>
+        </mat-action-row>
+    </mat-expansion-panel>
+</mat-accordion>
+<div class="empty-space"></div>
